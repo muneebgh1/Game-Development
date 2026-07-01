@@ -1,8 +1,16 @@
-# Space Miner
+# Game Development
 
-Professional Unity 6 mobile game — workspace layout.
+Repositories for game projects by [muneebgh1](https://github.com/muneebgh1).
 
-## Top-level layout
+## Projects
+
+### Space Miner
+
+Professional Unity 6 mobile game — casual 2D asteroid mining.
+
+**Docs:** [Game Design Document](docs/GameDesignDocument.md) · [Technical Specification](docs/TechnicalSpecification.md) · [Product Backlog](docs/ProductBacklog.md)
+
+#### Top-level layout
 
 | Folder | Purpose |
 |--------|---------|
@@ -13,7 +21,7 @@ Professional Unity 6 mobile game — workspace layout.
 | `marketing/` | Store listings, screenshots, trailers, and social assets. |
 | `builds/` | Exported APK/AAB/IPA builds (not committed to git). |
 
-## Documentation (`docs/`)
+#### Documentation (`docs/`)
 
 | Folder | Purpose |
 |--------|---------|
@@ -24,7 +32,7 @@ Professional Unity 6 mobile game — workspace layout.
 | `references/` | Mood boards, inspiration, external links, asset licenses. |
 | `logs/` | Dev diaries, playtest notes, sprint retrospectives. |
 
-## Unity project (`game/`)
+#### Unity project (`game/`)
 
 | Folder | Purpose |
 |--------|---------|
@@ -32,7 +40,7 @@ Professional Unity 6 mobile game — workspace layout.
 | `Packages/` | Unity Package Manager manifest and lock file. |
 | `ProjectSettings/` | Unity project configuration (input, graphics, build targets). |
 
-### Assets layout (`game/Assets/`)
+##### Assets layout (`game/Assets/`)
 
 | Folder | Purpose |
 |--------|---------|
@@ -42,7 +50,7 @@ Professional Unity 6 mobile game — workspace layout.
 | `ThirdParty/` | Imported asset packs and SDKs you did not author. |
 | `StreamingAssets/` | Files read at runtime via `Application.streamingAssetsPath`. |
 
-### Project content (`game/Assets/_Project/`)
+##### Project content (`game/Assets/_Project/`)
 
 | Folder | Purpose |
 |--------|---------|
@@ -68,7 +76,7 @@ Professional Unity 6 mobile game — workspace layout.
 | `Scripts/Services` | Save, ads, analytics, IAP, cloud backends. |
 | `Settings/` | URP assets, Input System actions, quality presets. |
 
-## Getting started
+#### Getting started
 
 1. Install **Unity 6** with Android and/or iOS build support.
 2. In Unity Hub, add project from `game/`.
