@@ -1,0 +1,13 @@
+---
+description: Space Miner Unity 6 mobile game conventions
+globs: game/**/*
+alwaysApply: false
+---
+
+# Space Miner
+
+- Unity 6 mobile game (Android/iOS). Project root: `game/`.
+- First-party assets live under `Assets/_Project/`. Third-party imports go in `Assets/ThirdParty/`.
+- Scripts: `Core` (bootstrap/managers), `Gameplay`, `UI`, `Services` (save, ads, analytics).
+- Prefer ScriptableObjects in `Data/` for tuning. Avoid the legacy `Resources/` folder.
+- Documentation belongs in `docs/`, not inside Unity Assets.
